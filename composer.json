@@ -1,0 +1,19 @@
+{
+    "name": "sinap/group",
+    "description": "Aplicacao de prestacao de servicos",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sinap\\Group\\": "src/",
+            "Sinap\\DB\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shelsio Marregula"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
